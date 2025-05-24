@@ -16,7 +16,11 @@ def load_image_as_base64(file_path):
         return base64.b64encode(f.read()).decode()
 
 # Convertir imagen a base64
+<<<<<<< HEAD
 image_base64 = load_image_as_base64("Logocarro.jpg")
+=======
+image_base64 = load_image_as_base64("logocarro.jpg")
+>>>>>>> 6403aef69988218fe26efbebd386aea5092a9c64
 
 # HTML con la imagen convertida
 st.markdown(
